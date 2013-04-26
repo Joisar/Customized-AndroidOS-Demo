@@ -15,6 +15,7 @@ Here is how I came to know that TimSort.java is not included in android.jar
 
 
 Now when I import TimSort.java ,it tries to access some hidden method of Arrays.java class,So I need to import that class also from AOSP and so on to solve errors I need to import 3 more classes as shown in below image,
+![Alt text](http://thumbnails105.imagebam.com/25100/0ba594250995720.jpg "Optional title")
 ![Alt text](http://thumbnails106.imagebam.com/25100/eea749250994970.jpg "Optional title")
 
 
