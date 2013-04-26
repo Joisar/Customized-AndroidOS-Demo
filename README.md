@@ -22,7 +22,7 @@ Now when I import TimSort.java ,it tries to access some hidden method of Arrays.
 
 
 And at the end when I run application,I face error of "Ill-advised or mistaken usage of a core class (java.* or javax.*)
-when not building a core library" ,because Arrays.java already exists in android.jar 
+when not building a core library" (It might get conflicts because of Arrays.java already exists in android.jar)
 
 So I think I should go another way to use TimSort.java without facing such mess is to get library files as mentioned at https://code.google.com/p/android-source-browsing/source/browse/Android.mk?repo‌​=platform--packages--apps--contacts&name=android-4.0.1_r1.2
 
