@@ -29,6 +29,8 @@ So I think I should go another way to use TimSort.java without facing such mess 
 
 
 
+NOTE: My machine has Windows 7 and I am trying to modify/run the individual application of ICS AOSP.I am not having whole source tree of ICS AOSP in my eclipse.
+
 
 
 
