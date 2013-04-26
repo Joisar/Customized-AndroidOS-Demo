@@ -3,5 +3,5 @@ Demo-App
 hi
 
 
-![Alt text](http://en.wikipedia.org/wiki/File:PageRank-hi-res-2.png "Optional title")
+![Alt text](http://upload.wikimedia.org/wikipedia/en/b/be/PageRank-hi-res-2.png "Optional title")
 
