@@ -3,7 +3,7 @@ Demo-App
 
 NOTE: the purpose of creating this repo is purely for debugging the app.
 
-Here is the scenario, In the application I was missing Timsort.java file so I needed to import it.I found that file in ICS AOSP and imported it by creating java.util package in my application src directory as shown in below screenshot.
+Here is the example scenario, In the application I was missing many classes and one of them is Timsort.java file so I needed to import it.I found that file in ICS AOSP and imported it by creating java.util package in my application src directory as shown in below screenshot.
 ![Alt text](http://thumbnails102.imagebam.com/25100/16445b250997206.jpg "Optional title")
 
 
@@ -19,6 +19,12 @@ Now when I import TimSort.java ,it tries to access some hidden method of Arrays.
 ![Alt text](http://thumbnails105.imagebam.com/25100/0ba594250995720.jpg "Optional title")
 
 ![Alt text](http://thumbnails106.imagebam.com/25100/eea749250994970.jpg "Optional title")
+
+
+And at the end when I run application,I face error of "Ill-advised or mistaken usage of a core class (java.* or javax.*)
+when not building a core library" ,because Arrays.java already exists in android.jar 
+
+So I think I should go another way to use TimSort.java without facing suche mess is to get library files as mentioned at https://code.google.com/p/android-source-browsing/source/browse/Android.mk?repo‌​=platform--packages--apps--contacts&name=android-4.0.1_r1.2
 
 
 
