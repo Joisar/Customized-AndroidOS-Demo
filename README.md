@@ -2,6 +2,7 @@ Demo-App
 ========
 
 NOTE: the purpose of creating this repo is purely for debugging the app.
+I have posted the question on stackoverflow which you can find at http://stackoverflow.com/questions/16142877/ui-modification-of-individual-application-phone-contacts-in-ics-aosp
 
 Here is the example scenario, In the application I was missing many classes and one of them is Timsort.java file so I needed to import it.I found that file in ICS AOSP and imported it by creating java.util package in my application src directory as shown in below screenshot.
 
